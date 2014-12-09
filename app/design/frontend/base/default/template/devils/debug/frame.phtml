@@ -1,0 +1,13 @@
+<div class="devils-debug">
+    <h1>DEVILS DEBUG</h1>
+    <div>
+        <?php
+        $events = $this->getEvents();
+        if ($events && is_array($events)) {
+            foreach ($events as $event) {
+                echo $event . '<br>';
+            }
+        }
+        ?>
+    </div>
+</div>

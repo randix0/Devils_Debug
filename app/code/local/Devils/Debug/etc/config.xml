@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Devils_Debug>
+            <version>0.1.0</version>
+        </Devils_Debug>
+    </modules>
+    <global>
+        <blocks>
+            <devils_debug>
+                <class>Devils_Debug_Block</class>
+            </devils_debug>
+        </blocks>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <devils_debug>
+                    <file>devils/debug.xml</file>
+                </devils_debug>
+            </updates>
+        </layout>
+    </frontend>
+</config>

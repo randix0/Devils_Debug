@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="head">
+            <action method="addCss">
+                <stylesheet>css/devils/debug/debug.css</stylesheet>
+            </action>
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>js/devils/debug/jquery-1.11.0.min.js</name>
+            </action>
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>js/devils/debug/debug.js</name>
+            </action>
+            <block type="devils_debug/debug" before="-" template="devils/debug/frame.phtml" />
+        </reference>
+    </default>
+</layout>
